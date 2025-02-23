@@ -1,0 +1,23 @@
+.services {
+  display: flex;
+}
+
+.section-service {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #333;
+  padding: 15px;
+  h4 {
+    margin-top: 20px 0 10px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  p {
+    font-size: 13px;
+    color: #999;
+  }
+}
+.section-service:first-child{
+    border-left: 1px solid #333;
+
+}

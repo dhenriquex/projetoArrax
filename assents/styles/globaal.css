@@ -2,6 +2,7 @@
 @import url("./banner.css");
 @import url("./sections.css");
 @import url("./aboutUs.css");
+@import url("./service.css");
 body {
   margin: 0;
   padding: 0;
