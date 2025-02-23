@@ -1,68 +1,109 @@
-.banner{
-    height: calc(100vh - 100px);
-    background-image:  url("../img/complementos/bg.jpg");
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
+.banner {
+  height: calc(100vh - 100px);
+  background-image: url("../img/complementos/bg.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
 }
-.banner .sliders{
-    width: 1000vw;
-    height: 100%;
-    
+.banner .sliders {
+  width: 1000vw;
+  height: 100%;
 }
-.banner .slide{
-    width: 100vw;
-    height: 100%;
-    display: inline-block;
-    background: rgba(0,0,0,0.8);
+.banner .slide {
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
 }
-.banner .slidearea{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+.banner .slidearea {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+}
+.banner .slidearea h1 {
+  font-size: 5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+.banner a {
+  display: block;
+  background-color: #b28756;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+.banner .pointer {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  transform: translateY(-50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  button {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #b28756;
+    border-radius: 100%;
+    background-color: transparent;
+    transition: 0.5s all ease;
+  }
+}
+.banner .pointer button:hover {
+  background-color: #b28756;
+  cursor: pointer;
+}
+.default {
+  padding: 50px 0;
+}
+.default .title,
+.default .desc {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.default .body {
+  max-width: 1140px;
+  margin: auto;
+}
+.default .title {
+  font-size: 20px;
+}
+.default .desc {
+  font-size: 13px;
+  color: #ccc;
+  margin: 10px 0 40px 0;
+}
+.default.ligth{
+    background-color: #f7f7f7;
+}
+.default.ligth .title{
+    color: #000;
+}
+.default.dark{
+    background-color: #000;
+}
+.default.dark .title, .default.dark .body{
     color: #fff;
-    flex-direction: column;
 }
-.banner .slidearea h1{
-    font-size: 5em;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-   margin: 0;
-}
-.banner a{
-    display: block;
-    background-color: #b28756;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 17px;
-    text-decoration: none;
-    padding: 10px 30px;
-    font-weight: 600;
-    margin-top: 20px;
-    border-radius: 30px;
-}
-.banner .pointer{
-    width: 100%;
-    height: 20px;
-    position: absolute;
-    transform: translateY(-50px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    button{
-        height: 15px;
-        width: 15px;
-        border: 1px solid #b28756;
-        border-radius: 100%;
-        background-color: transparent;
-        transition: 0.5s all ease;
-    }
-}
-.banner .pointer button:hover{
-    background-color: #b28756;
-    cursor: pointer;
-}
+
+
+
+
+
+
+
+
+
