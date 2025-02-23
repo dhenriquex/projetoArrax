@@ -28,6 +28,7 @@ header{
     gap: 50px;
 }
 .menu li a{
+    position: relative;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -36,9 +37,23 @@ header{
     align-items: center;
     height: 95px;
     border-bottom: 5px solid transparent;
-    transition: 0.5s all ease;
 }
 .menu li a:hover{
-    border-bottom: 5px solid #b28756;
-    color: #cccccccc;
+    color: #b28756;
+}
+.menu li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    background: #b28756;
+    height: 3px;
+    transform: scale(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+.menu li a:hover::after{
+    transform: scale(1);
+    transform-origin: left;
 }
