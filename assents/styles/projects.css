@@ -98,7 +98,6 @@
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
-    
   }
 }
 
@@ -111,17 +110,17 @@
 }
 
 .imgbutton {
-    display: block;
-   margin: auto;
-   margin-top: 20px;
-    width:150px;
-    padding: 10px;
-    border-radius: 30px;
-    background-color: #b28756;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.5s all ease;
-    border: none;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #b28756;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s all ease;
+  border: none;
 }
